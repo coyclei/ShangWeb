@@ -59,7 +59,18 @@ a:hover, a:focus {
 }
 
 .white-text {
+
     color: #FFF;
+}
+
+.white-text-slogan {
+    color: #FFF;
+    font-size:22px;
+}
+.white-text-slogan-span{
+    color: rgb(140, 177, 252);
+    /* color: #FFF; */
+    font-size:22px;
 }
 
 ::-moz-selection {
@@ -591,6 +602,7 @@ header {
     text-transform: uppercase;
 }
 
+
 .home-content button {
     margin-top: 20px;
 }
@@ -821,6 +833,8 @@ header {
 .service p {
     color: rgb(112, 116, 122);
 }
+
+
 
 .service svg {
     position: absolute;

@@ -8,6 +8,7 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 	<title>微商管理系统</title>
+	<link rel="icon" href="img/logo100_100.ico" type="image/x-icon"/>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
@@ -58,8 +59,8 @@
 					<!-- Logo -->
 					<div class="navbar-brand">
 						<a href="index.html">
-							<img class="logo" src="img/logo.png" alt="logo">
-							<img class="logo-alt" src="img/logo-alt.png" alt="logo">
+							<img class="logo" src="img/text2logoblue400.png" alt="logo">
+							<img class="logo-alt" src="img/text2logowhite400.png" alt="logo">
 						</a>
 					</div>
 					<!-- /Logo -->
@@ -98,8 +99,7 @@
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content">
 							<h1 class="white-text">专业管理 助力微商</h1>
-							<p class="white-text" style="font-size:22px;">为微商总代级用户深度定制的商业管理软件
-							</p>
+							<p class="white-text-slogan">为微商 <span class="white-text-slogan-span">总代级</span> 用户深度定制的商业管理软件</p>
 							<!-- <button class="white-btn">Get Started!</button>
 							<button class="main-btn">Learn more</button> -->
 						</div>
@@ -224,17 +224,18 @@
 	
 							<!-- <i class="iconfont icon-huiyuanguanli"></i> -->
 							<h3 id="h4">代理招募与管理</h3>
-							<p id="p4">代理信息录入、各级代理数</br>潜在代理名单、代理招募计划</br>代理培训计划、代理拿货排行、各级代理拿货比例。</p>
+							<p id="p4">潜在代理名单、代理信息录入<br/>代理招募计划、代理培训计划<br/>各等级代理数、各级拿货比例</p>
 							<script type="text/javascript">
 								$("#s4").mouseover(function () {
-									$("#p4").text("团队总代最关系莫过于发展代理，代理是微商销售体系的支架。系统以信息化技术，以及专业的微商代理管理策略，帮助微商总代系统化的管理发展团队代理。");
 									$("#h4").text("实际用处：");
+									$("#p4").html("规范化，信息化的进行代理招募与代理发展工作<br/>并且将你的实际管理方案与经验明确的记录下来，积累成管理财富");
+									
 								})
 								$("#s4").mouseout(function () {
-									var text = "代理信息管理、各级代理数 \n 潜在代理名单、代理招募计划\n代理培训计划、代理拿货排行、各级代理拿货比例。";
-									text=text.replace(/[\n\r]/g,'<br>')
-									$("#p4").text(text);
 									$("#h4").text("代理管理与招募");
+									var text = "潜在代理名单、代理信息录入<br/>代理招募计划、代理培训计划<br/>各等级代理数、各级拿货比例";
+									$("#p4").html(text);
+									
 								})
 							</script>
 						</div>
@@ -249,14 +250,14 @@
 							<use xlink:href="#icon-huiyuanjifen"></use>
 						</svg>
 						<h3 id="h1">商品信息管理</h3>
-						<p id="p1">商品条码录入、商品各级代理价查询、商品宣传资料查询、商品信息分类搜索</p>
+						<p id="p1">商品条码录入、各级代理价查询<br/>宣传资料查询、信息分类搜索<br/>商品销售排行、商品利润率分析</p>
 						<script type="text/javascript">
 							$("#s1").mouseover(function () {
-								$("#p1").text("在手机APP或电脑上轻松查询商品信息，商品种类多，信息多都不再麻烦啦！");
+								$("#p1").html("在电脑或手机APP上就能轻松录入、查询商品信息<br/>商品种类多、信息多都不再麻烦");
 								$("#h1").text("实际用处：");
 							})
 							$("#s1").mouseout(function () {
-								$("#p1").text("商品条码录入、商品各级代理价查询、商品宣传资料查询、商品信息分类搜索、商品销售排行、商品利润率分析。");
+								$("#p1").html("商品条码录入、各级代理价查询<br/>宣传资料查询、信息分类搜索<br/>商品销售排行、商品利润率分析");
 								$("#h1").text("商品信息管理");
 							})
 						</script>
@@ -275,14 +276,14 @@
 
 						<!-- <i class="iconfont icon-mendianguanli"></i> -->
 						<h3 id="h2">仓库库存管理</h3>
-						<p id="p2">多仓库存储货物、进货订单录入、进货销售库存自动计算、库存调拨、库存调节、实时库存查看、库存紧急预警。</p>
+						<p id="p2">多仓库存储货物、进货订单录入<br/>进销货自动计算、实时库存查看<br/>库存紧急预警、库存调拨、库存调节</p>
 						<script type="text/javascript">
 							$("#s2").mouseover(function () {
-								$("#p2").text("盘点库存不再需要跑去货物堆积如山的仓库，手机APP随时随地轻松查看库存。仓库情况了如指掌，该补货时就补货。");
+								$("#p2").html("盘点库存不再需要跑去货物堆积如山的仓库，手机上动动手指随时随地查看实时库存<br/>仓库情况了如指掌，不延误补货时机");
 								$("#h2").text("实际用处：");
 							})
 							$("#s2").mouseout(function () {
-								$("#p2").text("多仓库存储货物、进货订单录入、进货销售库存自动计算、库存调拨、库存调节、实时库存查看、库存紧急预警。");
+								$("#p2").html("多仓库存储货物、进货订单录入<br/>进销货自动计算、实时库存查看<br/>库存紧急预警、库存调拨、库存调节");
 								$("#h2").text("仓库库存管理");
 							})
 						</script>
@@ -299,16 +300,16 @@
 						</svg>
 
 						<!-- <i class="iconfont icon-dingdantongji"></i> -->
-						<h3 id="h3">销售管理</h3>
-						<p id="p3">订单手机扫码录入、待发货订单、待收款订单、每单利润实时计算、历史订单查询、本月每天销售情况、本年每月销售情况、年度销售情况。</p>
+						<h3 id="h3">销售订单管理</h3>
+						<p id="p3">APP扫码录单、利润实时计算<br/>待发货订单&nbsp&nbsp&nbsp&nbsp、待收款订单<br/>历史订单查询、每天销售情况<br/>每月销售情况、年度销售情况</p>
 						<script type="text/javascript">
 							$("#s3").mouseover(function () {
-								$("#p3").text("销售可以赚钱，记录销售更可以为发掘赚钱模式提供直接的商业数据积累。把每一笔销售都记录下来是销售良好习惯，也是专业的销售必做事情。");
+								$("#p3").html("完善的订单管理体系，轻松录入每一笔销售订单<br/>系统自动生成销售报表，让您清晰的知道销售情况");
 								$("#h3").text("实际用处：");
 							})
 							$("#s3").mouseout(function () {
-								$("#p3").text("订单手机扫码录入、待发货订单、待收款订单、每单利润实时计算、历史订单查询、本月每天销售情况、本年每月销售情况、年度销售情况。");
-								$("#h3").text("销售管理");
+								$("#p3").html("APP扫码录单、利润实时计算<br/>待发货订单&nbsp&nbsp&nbsp&nbsp、待收款订单<br/>历史订单查询、每天销售情况<br/>每月销售情况、年度销售情况");
+								$("#h3").text("销售订单管理");
 							})
 						</script>
 					</div>
@@ -326,15 +327,14 @@
 						</svg>
 
 						<h3 id="h5">市场规划与发展</h3>
-						<p id="p5">年度规划、每月事项、周计划帮助安排大小事项；</br>
-							销售目标、市场活动计划、市场问题分析、会议记录帮助规划市场。</p>
+						<p id="p5">市场活动计划、市场问题分析</br>销售目标、会议记录</br>年度规划、每月事项、周计划</p>
 						<script type="text/javascript">
 							$("#s5").mouseover(function () {
-								$("#p5").text("稳健迅猛的商业发展离不开优秀的市场规划。年度规划、每月事项、每周安排、市场活动策划井井有条的规划着市场发展。");
+								$("#p5").html("将规划想法明确的制定呈现出来</br>帮您井井有条的规划着市场发展");
 								$("#h5").text("实际用处：");
 							})
 							$("#s5").mouseout(function () {
-								$("#p5").text("年度规划、每月事项、周计划帮助安排大小事项；\n销售目标、市场活动计划、市场问题分析、会议记录帮助规划市场。");
+								$("#p5").html("市场活动计划、市场问题分析</br>销售目标、会议记录</br>年度规划、每月事项、周计划");
 								$("#h5").text("市场规划与发展");
 							})
 						</script>
@@ -353,14 +353,14 @@
 
 						<!-- <i class="iconfont icon-mendiantongji"></i> -->
 						<h3 id="h6">业务数据分析报表</h3>
-						<p id="p6">上月销售统计、本月销售统计、商品利润汇总、代理销售汇总、商品销售排行、年度销售情况。</p>
+						<p id="p6">月销售额走势、热销商品TOP10</br>年度销售展示、代理进货排名</br>各级代理收益、代理销售汇总表</p>
 						<script type="text/javascript">
 							$("#s6").mouseover(function () {
-								$("#p6").text("用直观易懂的图表展示各种商业数据，从不同的数据维度分析商业发展，助您的业务更上一层楼");
+								$("#p6").html("用直观易懂的图表展示实际商业数据，从不同维度分析市场走向，帮您策划发展方向");
 								$("#h6").text("实际用处：");
 							})
 							$("#s6").mouseout(function () {
-								$("#p6").text("上月销售统计、本月销售统计、商品利润汇总、代理销售汇总、商品销售排行、商品利润率分析、年度销售情况。");
+								$("#p6").html("月销售额走势、热销商品TOP10</br>年度销售展示、代理进货排名</br>各级代理收益、代理销售汇总表");
 								$("#h6").text("业务数据分析报表");
 							})
 						</script>
@@ -399,7 +399,14 @@
 						</svg> -->
 
 						<i class="fa fa-check"></i>
-						<p>深入研究微商模式，针对微商日常需求贴心定制的系统功能。</p>
+						<p><span style="color:#000">贴心称心：</span>深度结合微商模式，针对微商日常需求定制的系统功能</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<!-- <svg>
+								<use xlink:href="#icon-qingsongjieru"></use>
+							</svg> -->
+						<p><span style="color:#000">简单易用：</span>系统功能划分清晰，操作简单，轻松上手无压力。</p>
 					</div>
 					<div class="feature">
 						<i class="fa fa-check"></i>
@@ -407,28 +414,22 @@
 						<!-- <svg>
 								<use xlink:href="#icon-huabanfuben"></use>
 							</svg> -->
-						<p>手机端，电脑端都可使用，APP上随时轻松记录商业数据，打开电脑查看统计图表，数据功能实时同步。</p>
+						<p><span style="color:#000">手机电脑都可用：</span>APP上随时轻松记录商业数据，打开电脑查看统计图表，数据功能实时同步。</p>
 					</div>
-					<div class="feature">
-						<i class="fa fa-check"></i>
-						<!-- <svg>
-								<use xlink:href="#icon-qingsongjieru"></use>
-							</svg> -->
-						<p>系统功能划分清晰，操作简单，轻松上手无压力。</p>
-					</div>
+					
 					<div class="feature">
 						<i class="fa fa-check"></i>
 						<!-- <svg>
 								<use xlink:href="#icon-shuju"></use>
 							</svg> -->
-						<p>数据安全不丢失，云端数据管理，一个系统账号登录后即可在任意电脑手机上随时查看自己的数据。</p>
+						<p><span style="color:#000">数据安全：</span>数据安全不丢失，云端数据管理，一个系统账号登录后即可在任意电脑手机上随时查看自己的数据。</p>
 					</div>
 					<div class="feature">
 						<i class="fa fa-check"></i>
 						<!-- <svg>
 								<use xlink:href="#icon-anquan"></use>
 							</svg> -->
-						<p>搭搭云技术支持，阿里云服务器存储支持，系统稳健安全有保障！</p>
+						<p><span style="color:#000">系统稳定：</span>搭搭云技术支持，阿里云服务器存储支持，系统稳健安全有保障！</p>
 					</div>
 				</div>
 				<!-- /why choose us content -->
@@ -565,7 +566,7 @@
 	<div id="testimonial" class="section md-padding">
 
 		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('./img/background3.jpg');">
+		<div class="bg-img" style="background-image: url('./img/background2.jpg');">
 			<div class="overlay"></div>
 		</div>
 		<!-- /Background Image -->
